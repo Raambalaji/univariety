@@ -1,0 +1,243 @@
+/** Theme Responsive Sheets **/
+
+@media( max-width : 585px ) {
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .owl-theme .owl-controls{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .dv-navbar {
+        display: block;
+        padding: 0 15px;
+    }
+    .dv-navbar .navbar-toggler {
+        float: right;
+        margin-top: 10px;
+        border: 0px;
+    }
+    .study-web header .nav-link {
+        padding: 4px 0px 5px 0px;
+        margin: 5px 8px;
+    }
+    .study-web header button.nav-link {
+        padding: 4px 15px 5px 15px;
+    }
+    .dv-slider-wrapper {
+        padding: 60px 0px 15px;
+    }
+    .dv-control-mobile {
+        flex-direction: column-reverse;
+    }
+    .dv-control-mobile .dv-slider-control {
+        margin-bottom: 20px;
+    }
+    .dv-control-mobile .h2-span-tag {
+        margin-bottom: 0px !important;
+    }
+    .dv-about-wrapper-overlay {
+        background: none;
+    }
+    .dv-about-statment {
+        text-align: center;
+    }
+    .dv-about-statment p,
+    .dv-count-desc p {
+        text-align: justify;
+    }
+    .section-2 .container > .col {
+        padding: 0px;
+    }
+    .dv-countwrapper-style {
+        padding: 0px 0px 5px !important;
+    }
+    .dv-benefitcard-wrapper.w-20 {
+        width: 50% !important;
+        margin-bottom: 2em;
+    }
+    .spn-tag-tick {
+        left: 70px;
+    }
+    .dv-knowmore-tag .dv-flyer-section {
+        display: grid;
+    }
+    .dv-knowmore-tag .dv-flyer-section span {
+        padding-right: 0px;
+    }
+    .dv-flyer-section button {
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .dv-clarity-tab-wrapper nav > .nav.nav-tabs {
+        border: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        display: block;
+    }
+    .dv-clarity-tab-wrapper nav > div a.nav-item.nav-link {
+        padding-right: 0px;
+        padding-left: 0px !important;
+    }
+    .dv-clarity-tab-space p {
+        margin-bottom: 5px;
+    }
+    .dv-clarity-tab-space {
+        padding: 5px 15px 15px;
+        font-size: 16px;
+    }
+    .dv-clarity-tab-wrapper nav > div a.nav-item.nav-link.active:after {
+        content: none;
+    }
+    .section-3 .container>.col {
+        padding: 0px;
+    }
+    .dv-clarity-titlespace .sn-clarity-tag {
+        width: 100% !important;
+    }
+    .dv-clarity-tab-wrapper .tab-content {
+        padding: 0 0px !important;
+    }
+    .dv-clarity-tab-wrapper .label-tag {
+        float: none;
+    }
+    .dv-clarity-tab-wrapper .select-wrapper-fld .select-tag {
+        float: none;
+    }
+    .dv-clarity-tab-wrapper .select-wrapper-fld .select-tag {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .dv-navbar {
+        display: block;
+        padding: 0 15px;
+    }
+    .dv-navbar .navbar-toggler {
+        float: right;
+        margin-top: 10px;
+        border: 0px;
+    }
+    .study-web header .nav-link {
+        padding: 4px 0px 5px 0px;
+        margin: 5px 8px;
+    }
+    .study-web header button.nav-link {
+        padding: 4px 15px 5px 15px;
+    }
+    .dv-slider-wrapper {
+        padding: 60px 0px 15px;
+    }
+    .dv-control-mobile {
+        flex-direction: row;
+    }
+    .dv-control-mobile .dv-slider-control {
+        margin-bottom: 20px;
+    }
+    .dv-control-mobile .h2-span-tag {
+        margin-bottom: 0px !important;
+    }
+    .dv-about-wrapper-overlay {
+        background: none;
+    }
+    .dv-about-statment {
+        text-align: center;
+    }
+    .dv-about-statment p,
+    .dv-count-desc p {
+        text-align: justify;
+    }
+    .section-2 .container > .col {
+        padding: 0px;
+    }
+    .dv-countwrapper-style {
+        padding: 0px 0px 5px !important;
+    }
+    .dv-benefitcard-wrapper.w-20 {
+        width: 50% !important;
+        margin-bottom: 2em;
+    }
+    .spn-tag-tick {
+        left: 104px;
+    }
+    .dv-knowmore-tag .dv-flyer-section {
+        display: grid;
+    }
+    .dv-knowmore-tag .dv-flyer-section span {
+        padding-right: 0px;
+    }
+    .dv-flyer-section button {
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .dv-clarity-tab-wrapper nav > .nav.nav-tabs {
+        border: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        display: block;
+    }
+    .dv-clarity-tab-wrapper nav > div a.nav-item.nav-link {
+        padding-right: 0px;
+        padding-left: 0px !important;
+    }
+    .dv-clarity-tab-space p {
+        margin-bottom: 5px;
+    }
+    .dv-clarity-tab-space {
+        padding: 5px 15px 15px;
+        font-size: 16px;
+    }
+    .dv-clarity-tab-wrapper nav > div a.nav-item.nav-link.active:after {
+        content: none;
+    }
+    .section-3 .container>.col {
+        padding: 0px;
+    }
+    .dv-clarity-titlespace .sn-clarity-tag {
+        width: 100% !important;
+    }
+    .dv-clarity-tab-wrapper .tab-content {
+        padding: 0 0px !important;
+    }
+    .dv-clarity-tab-wrapper .label-tag {
+        float: left;
+    }
+    .dv-clarity-tab-wrapper .select-wrapper-fld .select-tag {
+        float: right;
+    }
+    .dv-clarity-tab-wrapper .select-wrapper-fld .select-tag {
+        float: right;
+        width: 45%;
+        margin-top: 0px;
+    }
+}
